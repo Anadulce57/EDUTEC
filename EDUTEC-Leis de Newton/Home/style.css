@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Didact Gothic", sans-serif;
+    font-family: "Cardo", serif;
+}
+:root{
+    --white:#FFFFFF;
+    --almost-white: #F2F1EC;
+    --blue-darker: #2B4451;
+    --blue-normal: #365B6D;
+    --blue-light: #2A769C;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.home_pagina1{
+    background-color: var(--almost-white);
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    gap: 2rem;
+    padding: 3.7rem 0;
+}
+
+.inicio img {
+    height: auto;
+}
+
+.inicio h1 {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.inicio img:last-of-type {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.9rem;
+}
+
+.botoes {
+    margin-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem; 
+}
+
+.botoes a{
+    display:grid;
+    margin: 0.6rem 0.9rem;
+    padding: 0.6rem 1.25rem;
+    background-color: var(--blue-darker);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 1.25rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.botoes h2 {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.5rem;
+    margin-top: 1.8rem;
+    text-align: right;
+}
+
+.botoes p {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+/* Segunda sessão */
+
+.home_pagina2 {
+    background-color: var(--blue-darker);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: 3.7rem 0;
+}
+
+.descricao {
+    width: 50%;
+    padding: 1.25rem;
+    text-align: left;
+}
+
+.descricao h2 {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.25rem;
+    color: var(--white);
+    margin-bottom: 1.25rem;
+}
+
+.descricao p {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.12rem;
+    line-height: 1.8;
+    margin-bottom: 1.87rem;
+    color: var(--white);
+}
+
+.descricao a {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    margin: 0.6rem 0.9rem;
+    padding: 0.6rem 1.25rem;
+    background-color: var(--white);
+    color: black;
+    text-decoration: none;
+    border-radius: 1.25rem;
+}
+
+.imagem1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.9rem;
+}
+
+/* Terceira sessão */
